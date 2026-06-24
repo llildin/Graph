@@ -37,8 +37,6 @@ void PrintShortestPath(int Start, int Dest)
 		cout << "Error" << endl;
 	}
 
-	int DistanceLength = Distance[Dest] - Distance[Start];
-
 	cout << "°æ·Î : ";
 	PrintPath(Start, Dest);
 }
